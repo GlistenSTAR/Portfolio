@@ -37,13 +37,11 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
+        <h2 style={{ textAlign: 'left' }}> - Frontend</h2>
+        <Techstack method="front" />
 
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
+        <h2 style={{ textAlign: 'left' }}> - Backend</h2>
+        <Techstack method="backend" />
 
         <Github />
       </Container>
