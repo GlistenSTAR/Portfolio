@@ -5,7 +5,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+// import Toolstack from "./Toolstack";
 
 function About() {
   return (
@@ -42,6 +42,18 @@ function About() {
 
         <h2 style={{ textAlign: 'left' }}> - Backend</h2>
         <Techstack method="backend" />
+
+        <h2 style={{ textAlign: 'left' }}> - Database</h2>
+        <Techstack method="db" />
+
+        <h2 style={{ textAlign: 'left' }}> - Mobile</h2>
+        <Techstack method="mobile" />
+
+        <h2 style={{ textAlign: 'left' }}> - Ecommerce</h2>
+        <Techstack method="ecommerce" />
+
+        <h2 style={{ textAlign: 'left' }}> - Special</h2>
+        <Techstack method="special" />
 
         <Github />
       </Container>

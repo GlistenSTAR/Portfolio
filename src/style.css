@@ -151,7 +151,9 @@ button:focus {
   }
 }
 .navbar-brand {
-  color: #6d20c5d7 !important;
+  background: -webkit-linear-gradient(#eee, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .logo {

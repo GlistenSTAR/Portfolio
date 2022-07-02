@@ -6,11 +6,13 @@ import {
   DiAngularSimple,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiPhp,
   DiGo,
   DiRust,
+  DiMongodb,
+  DiPostgresql,
+  DiSqllite,
 } from "react-icons/di";
 import {
   SiNuxtdotjs,
@@ -22,16 +24,26 @@ import {
   SiBootstrap,
   SiEmberdotjs,
   SiDjango,
-  SiSolidity
+  SiSolidity,
+  SiMysql,
+  SiOracle,
+  SiFirebase,
+  SiFlutter,
+  SiShopify,
+  SiMagento,
+  SiWoocommerce,
+  SiWebrtc,
+  SiPaypal,
+  SiStrapi
 } from "react-icons/si";
 
-function Techstack(props) {
-  console.log(props)
-  return (
-    <>
-      {
-        props.method == "front" ? (
-        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+
+
+const Techstack = (props) => {
+  const TechComponet = () => {
+    if (props.method === "front") {
+      return (
+        <Row style={{ paddingBottom: "50px" }}>
           <Col xs={4} md={2} className="tech-icons">
             <DiReact />
             <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
@@ -67,52 +79,126 @@ function Techstack(props) {
           <Col xs={4} md={2} className="tech-icons">
             <SiEmberdotjs />
           </Col>
-        </Row>) : (
-          <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            <Col xs={4} md={2} className="tech-icons">
-              <DiNodejs />
-              <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <DiPython />
-              <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <DiPhp />
-              <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <DiGo />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <DiRust />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <SiSolidity />
-              <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <SiDjango />
-              <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
-            </Col>
-            <Col xs={4} md={2} className="tech-icons">
-              <SiLaravel />
-              <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
-            </Col>
-          </Row>
-        )
+        </Row>
+      )
+    } else if (props.method === "backend") {
+      return (
+        < Row style={{ paddingBottom: "50px" }}>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiNodejs />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiPython />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiPhp />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiGo />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiRust />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiSolidity />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiDjango />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiLaravel />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+        </Row>
+      )
+    } else if (props.method === "db") {
+      return (
+        < Row style={{ paddingBottom: "50px" }}>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiMysql />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiMongodb />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiPostgresql />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiOracle />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiFirebase />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiSqllite />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+        </Row>
+      )
+    } else if (props.method === "mobile") {
+      return (
+        < Row style={{ paddingBottom: "50px" }}>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiReact />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiFlutter />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+        </Row>
+      )
+    } else if (props.method === "ecommerce") {
+      return (
+        < Row style={{ paddingBottom: "50px" }}>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiShopify />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiMagento />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiWoocommerce />
+          </Col>
+        </Row>
+      )
+    } else if (props.method === "special") {
+      return (
+        < Row style={{ paddingBottom: "50px" }}>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiWebrtc />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiPaypal />
+            <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiStrapi />
+          </Col>
+        </Row>
+      )
+    }
+
+  }
+
+  return (
+    <>
+      {
+        props.method ? (
+          <TechComponet />
+        ) : null
       }
-      {props.method === "special" ? (
-        <Col xs={4} md={2} className="tech-icons">
-          <SiLaravel />
-          <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
-        </Col>
-      ) : (
-        <Col xs={4} md={2} className="tech-icons">
-          <SiLaravel />
-          <img src={topRated} className="top_rated" width={50} height={60} alt="top" />
-        </Col>
-      )}
     </>
   );
 }

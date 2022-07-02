@@ -6,7 +6,10 @@ function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Work Chart for <strong className="purple">Code</strong>
+        Work Chart for {" "}
+        <a href="https://github.com/GlistenSTAR" style={{ color: 'purple' }}>
+          <strong className="purple">Code </strong>
+        </a>
       </h1>
       <GitHubCalendar
         username="GlistenSTAR"
@@ -15,7 +18,7 @@ function Github() {
         color="#c084f5"
         fontSize={16}
       />
-    </Row>
+    </Row >
   );
 }
 
