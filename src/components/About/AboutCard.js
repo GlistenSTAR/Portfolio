@@ -31,7 +31,7 @@ function AboutCard() {
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
+          <ul style={{marginTop: '20px'}}>
             <li className="about-activity">
               <ImPointRight /> Swimming
             </li>
@@ -40,13 +40,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Speak less, Work more!"{" "}
-          </p>
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Inhale confidence, exhale doubt."{" "}
-          </p>
-          <footer className="blockquote-footer">Marko's Motto</footer>
+          
         </blockquote>
       </Card.Body>
     </Card>

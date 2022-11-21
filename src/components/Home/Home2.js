@@ -4,10 +4,8 @@ import myImg from "../../Assets/mylogo.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -30,7 +28,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        {/* <Row>
+        <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -39,7 +37,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/glistenstar"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -49,17 +47,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://stackoverflow.com/users/14933532/glistenstar"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <FaStackOverflow />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/marko-kujacic-761b12230/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -69,17 +67,18 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                  href="https://www.showwcase.com/glistenstar"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  style={{ textDecoration: 'none' }}
                 >
-                  <AiFillInstagram />
+                  <p>S</p>
                 </a>
               </li>
             </ul>
           </Col>
-        </Row> */}
+        </Row>
       </Container>
     </Container>
   );
