@@ -32,15 +32,17 @@ function About() {
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" style={{ display: "flex", alignItems: "center", justifyContent: "center", height: '400px', width: 'auto' }} />
-            <p style={{ color: "rgb(155 126 172)",  marginTop: '20px', fontSize:'22px' }}>
-              "Speak less, Work more!"{" "}
-            </p>
             <p style={{ color: "rgb(155 126 172)", fontSize:'22px' }}>
               "Inhale confidence, exhale doubt."{" "}
+            </p>
+            <p style={{ color: "rgb(155 126 172)",  marginTop: '20px', fontSize:'22px' }}>
+              "Speak less, Work more!"{" "}
             </p>
             <footer className="blockquote-footer" align="right">Marko's Motto</footer>
           </Col>
         </Row>
+        <Github />
+
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
@@ -62,7 +64,6 @@ function About() {
         <h2 style={{ textAlign: 'left' }}> - Special</h2>
         <Techstack method="special" />
 
-        <Github />
       </Container>
     </Container>
   );
