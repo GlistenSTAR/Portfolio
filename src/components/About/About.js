@@ -31,7 +31,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" style={{ display: "flex", alignItems: "center", justifyContent: "center", height: '400px', width: '400px' }} />
+            <img src={laptopImg} alt="about" className="img-fluid" style={{ display: "flex", alignItems: "center", justifyContent: "center", height: '400px', width: 'auto' }} />
             <p style={{ color: "rgb(155 126 172)",  marginTop: '20px', fontSize:'22px' }}>
               "Speak less, Work more!"{" "}
             </p>
