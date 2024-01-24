@@ -38,7 +38,7 @@ function About() {
             <p style={{ color: "rgb(155 126 172)", fontSize:'22px' }}>
               "Inhale confidence, exhale doubt."{" "}
             </p>
-            <footer className="blockquote-footer">Marko's Motto</footer>
+            <footer className="blockquote-footer" align="right">Marko's Motto</footer>
           </Col>
         </Row>
         <h1 className="project-heading">

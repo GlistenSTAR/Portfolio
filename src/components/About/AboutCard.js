@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Marko Kujacic </span>
             from <span className="purple"> Belgrade, Serbia.</span>
-            <br/> I have 8 years of experience writing web apps that span consumer productivity software to
+            <br/> I have 9 years of experience writing web apps that span consumer productivity software to
             mission-critical financial trading platforms.
             I have worked in full stack engineering for my entire developing career and my commitment to
             critical thinking and attention to detail have gotten me to where the senior full stack developer
@@ -36,7 +36,7 @@ function AboutCard() {
               <ImPointRight /> Swimming
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Horse Riding
             </li>
           </ul>
 
