@@ -340,7 +340,7 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 50px;
   color: white !important;
 }
 
@@ -442,6 +442,7 @@ button:focus {
 
 .blockquote-footer {
   color: #a588c0 !important;
+  margin-top: 50px
 }
 /* --------- */
 /* Projects */
