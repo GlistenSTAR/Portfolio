@@ -21,7 +21,8 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <h1 style={{height: "50vh", marginTop: "60px"}}>Adding soon...</h1>
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -86,7 +87,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
