@@ -17,10 +17,6 @@ function AboutCard() {
             in Inmetrics company.
             I am self-motivated, energetic collaborator who thrives on working in a fast-paced environment
             with tight deadlines and have a desire to stay updated on current and new technologies.
-            So I have engaged as a role of leader in this company, contributing to make a innovative result
-            and better progress.
-            Due to pandemic, I had to end up my role in this company earlier and now I am working as
-            full stack developer on upwork.
             I have keen insight into what it takes to run a successful project because I have taken part in
             different successful projects across from startup to multi vendors.
             My career goal is to have an opportunity to learn and grow my skills from a technical standpoint,
