@@ -15,7 +15,7 @@ function Home2() {
               LET ME <span className='purple'> INTRODUCE </span> MYSELF
             </h1>
             <p className='home-about-body'>
-              I have worked in full stack engineering for my entire over 9 years
+              I have worked in full stack engineering for my entire over 8 years
               career and my commitment to critical thinking and attention to
               detail have gotten me to where the senior full stack developer in
               Quarashi, Inmetrics, Ticket Kingdom company. I am self-motivated,
@@ -66,7 +66,7 @@ function Home2() {
               </li>
               <li className='social-icons'>
                 <a
-                  href='https://www.linkedin.com/in/marko-kujacic-761b12230/'
+                  href='https://www.linkedin.com/in/aljazlee/'
                   target='_blank'
                   rel='noreferrer'
                   className='icon-colour  home-social-icons'>

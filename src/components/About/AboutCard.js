@@ -8,13 +8,13 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Marko Kujacic </span>
-            from <span className="purple"> Belgrade, Serbia.</span>
-            <br/> I have 9 years of experience writing web apps that span consumer productivity software to
+            Hello, Everyone, I am <span className="purple">Aljaz Lee </span>
+            from <span className="purple"> Nova Scotia, Canada.</span>
+            <br/> I have 8 years of experience writing web apps that span consumer productivity software to
             mission-critical financial trading platforms.
             I have worked in full stack engineering for my entire developing career and my commitment to
             critical thinking and attention to detail have gotten me to where the senior full stack developer
-            in Inmetrics company.
+            in Fukui Computer Group in Japan.
             I am self-motivated, energetic collaborator who thrives on working in a fast-paced environment
             with tight deadlines and have a desire to stay updated on current and new technologies.
             I have keen insight into what it takes to run a successful project because I have taken part in

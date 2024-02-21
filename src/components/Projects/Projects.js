@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import quarashi_market from "../../Assets/Projects/quarashi_market.png";
+import ticketkingdom from "../../Assets/Projects/ticketkingdom.png";
+import spectre from "../../Assets/Projects/spectre.png";
+import quarashi from "../../Assets/Projects/quarashi.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import emotion from "../../Assets/Projects/emotion.png";
 
 function Projects() {
   return (
@@ -21,62 +21,50 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <h1 style={{height: "50vh", marginTop: "60px"}}>Adding soon...</h1>
-          {/* <Col md={4} className="project-card">
+          {/* <h1 style={{height: "50vh", marginTop: "60px"}}>Adding soon...</h1> */}
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={quarashi}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Quarashi"
+              description="Quarashi is big DAO and a mobile for the DeFi future Blockchain UI MultiChain Crypto wallet, Privacy Chat, DEX, IDO Launchpad, VPN, Incognito Browser, Airdrops.Experienced in development RWD and SPA with Sveltekit, Svelte store, jQuery,Bootstrap, HTML5, Tailwind CSS, GraphQL, ES6, Babel, Express, Eslint.Understands Server Side Rendering, Virtual DOM, Performance optimization."
+              ghLink="https://github.com/quarashi-network/"
+              demoLink="https://quarashi.network/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={spectre}
+              isBlog={false}
+              title="Svelte Spectre"
+              description="UI-kit based on spectre.css and powered by SvelteJS. See the documentation, which is also a component explorer (storybook). Focus to make Periodic Table. Can select three ingredient or groups."
+              ghLink="https://github.com/basf/svelte-spectre"
+              demoLink="https://kit.metis.science/docs/components/periodictable"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={quarashi_market}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Quarashi Market"
+              description="it's Sub-platform for Quarashi Netowkr. Can get coin price every 5 mins and recommend news and storys. I have done this project using Sveltekit, Node.js, Coingecko api, mongodb, aws lamda, ec2. Private repo"
+              ghLink="https://github.com/GlistenSTAR/Quarashi-market"
+              demoLink="https://markets.quarashi.network/"
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ticketkingdom}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Ticket Tools"
+              description="This project for ticket kingdom company. Can get ticket amount from 8 sites and event notify for soldout and event new add. As stack, React.js as frontend, Backend is python, using python selenium, BS4, Node.js Puppeteer.js. This one is still private repos."
+              ghLink="https://github.com/ticketkingdom"
+              demoLink="https://github.com/TicketKingdom/Ticket-Tools"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
@@ -87,7 +75,19 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col> */}
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Ai For Social Good"
+              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              ghLink="https://github.com/GlistenSTAR/AI_For_Social_Good"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>

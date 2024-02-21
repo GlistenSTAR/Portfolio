@@ -263,7 +263,7 @@ button:focus {
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-top: 50px !important;
 }
 
 .home-content {
@@ -321,8 +321,8 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-bottom: 50px !important;
+  padding-top: 50px !important;
 }
 
 .home-about-description {
